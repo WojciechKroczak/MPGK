@@ -1,0 +1,15 @@
+﻿  Source.cpp
+c:\users\wojti\source\repos\grafika0404\grafikakroczakzadanie1\source.cpp(90): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+c:\users\wojti\source\repos\grafika0404\grafikakroczakzadanie1\source.cpp(91): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+  Wektor.cpp
+c:\users\wojti\source\repos\grafika0404\grafikakroczakzadanie1\wektor.cpp(156): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\wojti\source\repos\grafika0404\grafikakroczakzadanie1\wektor.cpp(157): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\wojti\source\repos\grafika0404\grafikakroczakzadanie1\wektor.cpp(158): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\wojti\source\repos\grafika0404\grafikakroczakzadanie1\wektor.cpp(159): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\wojti\source\repos\grafika0404\grafikakroczakzadanie1\wektor.cpp(169): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\wojti\source\repos\grafika0404\grafikakroczakzadanie1\wektor.cpp(170): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\wojti\source\repos\grafika0404\grafikakroczakzadanie1\wektor.cpp(171): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\wojti\source\repos\grafika0404\grafikakroczakzadanie1\wektor.cpp(172): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Wektor2.cpp
+  Generating Code...
+  GrafikaKroczakZadanie1.vcxproj -> C:\Users\Wojti\source\repos\Grafika0404\Debug\GrafikaKroczakZadanie1.exe

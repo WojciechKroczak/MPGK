@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\wojti\source\repos\grafika0404\grafikakroczakzadanie0\source.cpp(90): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+c:\users\wojti\source\repos\grafika0404\grafikakroczakzadanie0\source.cpp(91): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+  GrafikaKroczakZadanie0.vcxproj -> C:\Users\Wojti\source\repos\Grafika0404\Debug\GrafikaKroczakZadanie0.exe

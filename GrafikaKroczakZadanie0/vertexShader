@@ -1,0 +1,23 @@
+#version 330 core
+layout(location=0) in vec4 polozenie;
+layout(location=1) in vec4 kolorVS;
+out vec4 kolorFS;
+uniform float zmianaShader;
+uniform float obrotShader;
+//float obr = 1.57; //1.57 - radian z okolo 90stopni, 3,14 - 180
+void main()
+{
+//domyslne polozenie
+//gl_Position = vec4(zmianaShader * polozenie.x, zmianaShader * polozenie.y, zmianaShader * polozenie.z, polozenie.w);  
+
+//rotacja os Z
+//gl_Position = vec4((zmianaShader * polozenie.x)*cos(obrotShader)-(zmianaShader * polozenie.y)*sin(obrotShader), (zmianaShader * polozenie.x)*sin(obrotShader)+(zmianaShader * polozenie.y)*cos(obrotShader), zmianaShader * polozenie.z, polozenie.w);
+
+//rotacja os X
+//gl_Position = vec4(zmianaShader * polozenie.x, (zmianaShader * polozenie.y)*cos(obrotShader)-(zmianaShader * polozenie.z)*sin(obrotShader), (zmianaShader * polozenie.y)*sin(obrotShader)+(zmianaShader * polozenie.z)*cos(obrotShader), polozenie.w);
+
+//rotacja os Y
+gl_Position = vec4((zmianaShader * polozenie.x)*cos(obrotShader)+(zmianaShader * polozenie.z)*sin(obrotShader), zmianaShader * polozenie.y,-(zmianaShader * polozenie.x)*sin(obrotShader)+(zmianaShader * polozenie.z)*cos(obrotShader), polozenie.w);
+
+kolorFS = kolorVS;
+}

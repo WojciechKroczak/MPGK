@@ -1,0 +1,65 @@
+	GLfloat wierzcholki[] = {
+		//wierzcholki nalezace do glownego kwadratu (1,2,3,4) - front - zolty
+		-0.4f, -0.4f, 0.0f, 1.0f, //wierzcholek
+		 1.0f,  1.0f, 0.0f, 1.0f, //kolor
+		 0.4f, -0.4f, 0.0f, 1.0f, //wierzcholek
+		 1.0f,  1.0f, 0.0f, 1.0f, //kolor
+		-0.4f,  0.4f, 0.0f, 1.0f, //wierzcholek
+		 1.0f,  1.0f, 0.0f, 1.0f, //kolor
+		 0.4f,  0.4f, 0.0f, 1.0f, //wierzcholek
+		 1.0f,  1.0f, 0.0f, 1.0f, //kolor
+		 //drugi trojkat w prawym gornym rogu - nieuzywany do szescianu - brak odwolania w indeksyTab
+		 0.6f,  0.6f, 0.0f, 1.0f, //wierzcholek
+		 1.0f,  1.0f, 1.0f, 1.0f,  //kolor  
+		 0.6f,  0.9f, 0.0f, 1.0f, //wierzcholek
+		 1.0f,  1.0f, 1.0f, 1.0f,  //kolor  
+		 0.9f,  0.6f, 0.0f, 1.0f, //wierzcholek
+		 1.0f,  1.0f, 1.0f, 1.0f,  //kolor    
+		 //wierzcholki lewego boku - czerwony
+		-0.4f, -0.4f, 0.0f, 1.0f, //wierzcholek
+		 1.0f,  0.0f, 0.0f, 1.0f, //kolor
+		 -0.4f, 0.4f, 0.0f, 1.0f, //wierzcholek
+	 	 1.0f,  0.0f, 0.0f, 1.0f, //kolor
+		-1.2f,  -0.4f, 0.0f, 1.0f, //wierzcholek
+		 1.0f,  0.0f, 0.0f, 1.0f, //kolor
+		 -1.2f,  0.4f, 0.0f, 1.0f, //wierzcholek
+		 1.0f,  0.0f, 0.0f, 1.0f, //kolor
+		 //wierzcholki prawego boku - niebieski
+		 0.4f, -0.4f, 0.0f, 1.0f, //wierzcholek
+		 0.0f,  0.0f, 1.0f, 1.0f, //kolor
+		 0.4f,  0.4f, 0.0f, 1.0f, //wierzcholek
+		 0.0f,  0.0f, 1.0f, 1.0f, //kolor
+		 1.2f,  0.4f, 0.0f, 1.0f, //wierzcholek
+		 0.0f,  0.0f, 1.0f, 1.0f, //kolor
+		 1.2f,  -0.4f, 0.0f, 1.0f, //wierzcholek
+		 0.0f,  0.0f, 1.0f, 1.0f, //kolor
+		 //wierzcholki dolnej scianki - zielony
+		-0.4f, -0.4f, 0.0f, 1.0f, //wierzcholek
+		 0.0f,  1.0f, 0.0f, 1.0f, //kolor
+		 0.4f, -0.4f, 0.0f, 1.0f, //wierzcholek
+		 0.0f,  1.0f, 0.0f, 1.0f, //kolor
+		-0.4f, -1.2f, 0.0f, 1.0f, //wierzcholek
+		 0.0f,  1.0f, 0.0f, 1.0f, //kolor
+		 0.4f, -1.2f, 0.0f, 1.0f, //wierzcholek
+		 0.0f,  1.0f, 0.0f, 1.0f, //kolor
+		 //wierzcholki gornej scianki - biale
+		-0.4f,  0.4f, 0.0f, 1.0f, //wierzcholek
+		 1.0f,  1.0f, 1.0f, 1.0f, //kolor
+		 0.4f,  0.4f, 0.0f, 1.0f, //wierzcholek
+		 1.0f,  1.0f, 1.0f, 1.0f, //kolor
+		-0.4f,  1.2f, 0.0f, 1.0f, //wierzcholek
+		 1.0f,  1.0f, 1.0f, 1.0f, //kolor
+		 0.4f,  1.2f, 0.0f, 1.0f, //wierzcholek
+		 1.0f,  1.0f, 1.0f, 1.0f, //kolor 
+		  //wierzcholki tylnej scianki - blekitny
+		-0.4f,  1.2f, 0.0f, 1.0f, //wierzcholek
+		 0.0f,  1.0f, 1.0f, 1.0f, //kolor
+		 0.4f,  1.2f, 0.0f, 1.0f, //wierzcholek
+		 0.0f,  1.0f, 1.0f, 1.0f, //kolor
+		-0.4f,  2.0f, 0.0f, 1.0f, //wierzcholek
+		 0.0f,  1.0f, 1.0f, 1.0f, //kolor
+		 0.4f,  2.0f, 0.0f, 1.0f, //wierzcholek
+		 0.0f,  1.0f, 1.0f, 1.0f, //kolor
+
+
+	};
